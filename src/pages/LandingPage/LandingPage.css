@@ -7,15 +7,53 @@
 html,
 body
 {
+    font-family: 'Poppins', sans-serif;
+    background: rgb(29, 29, 29);
+    overflow-x: hidden;
+    display: flex;
+}
+
+/* Section-1 */
+.section-1 {
     height: 100vh;
-    font-family: 'Poppins';
+    width: 100vw;
+    display: inline-block;
 }
 
 .webgl
 {
-    background: rgb(24, 24, 24);
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     outline: none;
+    mix-blend-mode: exclusion;
+}
+
+.container-name {
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.landing-page-img{
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+.name {
+    font-family: 'Poppins';
+    font-size: 8rem;
+    text-transform: uppercase;
+}
+
+.section-23-background{
+    background-repeat: no-repeat;
+    background-position: right;
 }
